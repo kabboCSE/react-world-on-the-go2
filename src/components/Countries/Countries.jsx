@@ -22,7 +22,7 @@ const Countries = ({ countriesPromise }) => {
   return (
     <div>
       <h1>In the Countries : {countries.length}</h1>
-      <h2>Total Visited Country : {visitedCountries.length} </h2>
+      <h2>Total Visited Country by US : {visitedCountries.length} </h2>
       <h2>Total Visited Flag: {visitedFlags.length}</h2>
       <ol>
         {visitedCountries.map((country) => (
